@@ -1,1 +1,53 @@
+--- styles.css ---
+
+/* Basic styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+/* Hover effects */
+
+nav a:hover {
+  color: #ddd;
+  background-color: #666;
+}
+
+/* Page transitions */
+
+main {
+  transition: all 0.3s ease;
+}
+
+/* Hide scrollbar for better appearance */
+body {
+  scrollbar-width: auto;
+  scrollbar-color: #333 #ddd;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 10px;
+}
 
