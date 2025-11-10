@@ -1,3 +1,5 @@
+--- index.html ---
+
 ---
 title: My Portfolio
 description: A place to showcase my work and skills
@@ -8,24 +10,24 @@ description: A place to showcase my work and skills
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ page_description }}">
-    
+    <title>My Portfolio</title>
+    <meta name="description" content="A place to showcase my work and skills">
+
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!-- Navigation menu (for all pages) -->
     <nav>
-      <!-- Navigation links (index, projects, contact) -->
+      <a href="#" class="nav-link">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
     </nav>
 
-    <!-- Page content -->
     <main>
-      {{ content }}
+      <h1>Welcome!</h1>
+      <p>Hi, this is a brief introduction of what this portfolio will include. From here, you can navigate to my</p>
+      <a href="projects.html">Projects</a> and <a href="contact.html">Contact</a> page.</p>
     </main>
 
-    <!-- Include script at the end of the body tag -->
     <script src="scripts.js"></script>
   </body>
 </html>
-
